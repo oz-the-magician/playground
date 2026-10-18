@@ -4,7 +4,8 @@
 export const GROUPS = [
   { id: 'tools', title: { ru: 'Инструменты', en: 'Tools' } },
   { id: 'refs',  title: { ru: 'Справочники', en: 'References' } },
-  { id: 'play',  title: { ru: 'Игры и эксперименты', en: 'Games and experiments' } }
+  { id: 'play',  title: { ru: 'Игры и эксперименты', en: 'Games and experiments' } },
+  { id: 'viz',   title: { ru: 'Визуализация', en: 'Visualization' } }
 ];
 
 export const PROJECTS = [
@@ -86,6 +87,21 @@ export const PROJECTS = [
     }
   },
   {
+    group: 'refs',
+    name: 'Effects Atlas',
+    img: 'img/effects-atlas.webp',
+    demo: 'https://oz-the-magician.github.io/effects-atlas/',
+    code: 'https://github.com/oz-the-magician/effects-atlas',
+    about: {
+      ru: '37 моушн- и интерактивных эффектов для обложек и страниц портфолио: типографика, изображения, навигация, 3D-фоны. У каждого живое превью и готовый промпт, чтобы собрать такой же.',
+      en: '37 motion and interaction effects for site covers and portfolio pages: type, images, navigation, 3D backgrounds. Each has a live preview and a ready prompt to build your own.'
+    },
+    made: {
+      ru: 'один HTML-файл, WebGL-шейдеры, Canvas, three.js, GSAP',
+      en: 'one HTML file, WebGL shaders, Canvas, three.js, GSAP'
+    }
+  },
+  {
     group: 'play',
     name: 'Roadkick',
     img: 'img/roadkick.webp',
@@ -128,6 +144,21 @@ export const PROJECTS = [
     made: {
       ru: 'Web Audio, астрономические расчёты, четыре ансамбля',
       en: 'Web Audio, astronomy maths, four ensembles'
+    }
+  },
+  {
+    group: 'viz',
+    name: 'Solar Vortex',
+    img: 'img/solar-vortex.webp',
+    demo: 'https://oz-the-magician.github.io/solar-vortex/',
+    code: 'https://github.com/oz-the-magician/solar-vortex',
+    about: {
+      ru: 'Солнце летит сквозь Галактику, а планеты чертят вокруг него спирали. Можно отдаляться шаг за шагом: от орбит планет до Ланиакеи и края наблюдаемой Вселенной.',
+      en: 'The Sun flies through the Galaxy while the planets trace spirals around it. Zoom out step by step, from planetary orbits to Laniakea and the edge of the observable universe.'
+    },
+    made: {
+      ru: 'Canvas 2D и Web Audio без библиотек, реальные расстояния, RU · EN · CS',
+      en: 'Canvas 2D and Web Audio, no libraries, real distances, RU · EN · CS'
     }
   }
 ];
