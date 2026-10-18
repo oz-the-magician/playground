@@ -63,8 +63,8 @@ export const PROJECTS = [
     demo: 'https://oz-the-magician.github.io/web-style-atlas/',
     code: 'https://github.com/oz-the-magician/web-style-atlas',
     about: {
-      ru: '44 направления веб-дизайна, от скевоморфизма до Liquid Glass. У каждого живое превью мини-сайта и готовый промпт-фрагмент для генератора сайтов.',
-      en: '44 web design styles, from skeuomorphism to Liquid Glass. Each has a live mini-site preview and a ready prompt fragment for site generators.'
+      ru: '44 направления веб-дизайна и 8 гибридов, от скевоморфизма до Liquid Glass. У каждого живое превью мини-сайта и готовый промпт-фрагмент для генератора сайтов.',
+      en: '44 web design styles and 8 hybrids, from skeuomorphism to Liquid Glass. Each has a live mini-site preview and a ready prompt fragment for site generators.'
     },
     made: {
       ru: 'один HTML-файл, превью на CSS, поиск и фильтры по семействам',
