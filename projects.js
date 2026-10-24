@@ -41,6 +41,22 @@ export const PROJECTS = [
   },
   {
     group: 'tools',
+    name: 'Пропись',
+    nameEn: 'Propis',
+    img: 'img/propis.webp',
+    demo: 'https://oz-the-magician.github.io/propis-font-maker/',
+    code: 'https://github.com/oz-the-magician/propis-font-maker',
+    about: {
+      ru: 'Превращает почерк и нарисованные символы в настоящий шрифт. Рисуете буквы на листе-прописи или сканируете заполненный шаблон и получаете OTF и WOFF с латиницей, чешской диакритикой и кириллицей.',
+      en: 'Turns handwriting and drawn symbols into a real font. Draw letters on a copybook sheet or scan a filled-in template and get OTF and WOFF files with Latin, Czech diacritics and Cyrillic.'
+    },
+    made: {
+      ru: 'векторизация в браузере, 7 инструментов и маска-образец, opentype.js',
+      en: 'in-browser vectorization, 7 drawing tools and a reference mask, opentype.js'
+    }
+  },
+  {
+    group: 'tools',
     name: 'Калькулятор ипотеки',
     nameEn: 'Mortgage Calculator',
     img: 'img/mortgage.webp',
