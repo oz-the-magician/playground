@@ -51,8 +51,8 @@ export const PROJECTS = [
       en: 'Turns handwriting and drawn symbols into a real font. Draw letters on a copybook sheet or scan a filled-in template and get OTF and WOFF files with Latin, Czech diacritics and Cyrillic.'
     },
     made: {
-      ru: 'векторизация в браузере, 7 инструментов и маска-образец, opentype.js',
-      en: 'in-browser vectorization, 7 drawing tools and a reference mask, opentype.js'
+      ru: 'векторизация в браузере, 7 инструментов и маска-образец, RU · CS · EN',
+      en: 'in-browser vectorization, 7 drawing tools and a reference mask, RU · CS · EN'
     }
   },
   {
